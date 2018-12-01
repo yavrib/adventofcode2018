@@ -1,5 +1,8 @@
-mod first_problem;
+mod solutions;
+mod utils;
+
+use solutions::*;
 
 fn main() {
-    first_problem::solve();
+    first::solve();
 }
